@@ -111,7 +111,7 @@ define({
         {
             'name' : 'Integrate with given lower bound and integration constant $k$',
             'snippet' : [
-                'poly.integ(lbnd=0.1, k=-2.34',
+                'poly.integ(lbnd=0.1, k=-2.34)',
             ],
         },
         '---',
