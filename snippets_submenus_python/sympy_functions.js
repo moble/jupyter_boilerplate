@@ -484,7 +484,7 @@ define({
                         },
                         {
                             'name' : 'Dirichlet eta function',
-                            'snippet' : ['eta(s)',],
+                            'snippet' : ['dirichlet_eta(s)',],
                         },
                         {
                             'name' : 'Polylogarithm function',
