@@ -140,7 +140,9 @@ define({
                 {
                     'name' : 'gradient: Gradient of an N-dimensional array',
                     'snippet' : [
-                        'np.gradient(f, *varargs, **kwargs)',
+                        'xx = np.arange(0, 1, 0.1)',
+                        'yy = xx**2 + 1',
+                        'np.gradient(yy, 0.1)',
                     ],
                 },
 
