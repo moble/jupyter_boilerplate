@@ -43,7 +43,7 @@ define({
         {
             'name' : 'Get coefficients (constant at index 0, higher indices for higher orders)',
             'snippet' : [
-                'poly.coeff',
+                'poly.coef',
             ],
         },
         {
