@@ -270,7 +270,7 @@ define({
                 },
                 {
                     'name' : 'Heaviside function',
-                    'snippet' : ['Heaviside(X)',],
+                    'snippet' : ['Heaviside(x)',],
                 },
                 {
                     'name' : 'Gamma, Beta and related Functions',
