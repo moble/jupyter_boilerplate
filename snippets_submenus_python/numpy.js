@@ -55,6 +55,7 @@ define([
                             'x = np.linspace(0, 1, 7)',
                             'y = np.linspace(0, 1, 11)',
                             'xx, yy = np.meshgrid(x, y)',
+                            'xx, yy',
                         ],
                     },
                     {
@@ -62,6 +63,7 @@ define([
                         'snippet' : [
                             'x = np.arange(12)',
                             'a,b,c = np.split(x, 3)',
+                            'a, b, c',
                         ],
                     },
                     {
@@ -69,6 +71,7 @@ define([
                         'snippet' : [
                             'x = np.arange(27).reshape((3,9))',
                             'a,b,c = np.split(x, [2,6], axis=1)',
+                            'a, b, c',
                         ],
                     },
                     {
@@ -76,7 +79,7 @@ define([
                         'snippet' : [
                             'a = np.arange(30).reshape((2,3,5))',
                             'b = np.arange(42).reshape((2,3,7))',
-                            'c = np.concatenate((a, b), axis=1)',
+                            'np.concatenate((a, b), axis=2)',
                         ],
                     },
                 ],
@@ -109,7 +112,7 @@ define([
                                 'name' : 'View real array as complex',
                                 'snippet' : [
                                     'r = np.linspace(0, 10, num=100).reshape((25,4))',
-                                    'c = r.view(complex)',
+                                    'r.view(complex)',
                                 ],
                             },
                             {
@@ -117,7 +120,7 @@ define([
                                 'snippet' : [
                                     'c = (np.linspace(0, 10, num=50) + 1j*np.linspace(0, 10, num=50))',
                                     'cv = c.view(float)',
-                                    'r = cv.reshape(c.shape + (2,))',
+                                    'cv.reshape(c.shape + (2,))',
                                 ],
                             },
                         ],
@@ -151,6 +154,7 @@ define([
                         'snippet' : [
                             'x = np.arange(12)',
                             'a,b,c = np.split(x, 3)',
+                            'a, b, c',
                         ],
                     },
                     {
@@ -158,6 +162,7 @@ define([
                         'snippet' : [
                             'x = np.arange(27).reshape((3,9))',
                             'a,b,c = np.split(x, [2,6], axis=1)',
+                            'a, b, c',
                         ],
                     },
                 ],
