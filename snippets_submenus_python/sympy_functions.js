@@ -233,27 +233,27 @@ define({
                 },
                 {
                     'name' : 'Stirling number of the second kind',
-                    'snippet' : ['stirling(n, k)',],
+                    'snippet' : ['from sympy.functions.combinatorial.numbers import stirling', 'stirling(n, k)',],
                 },
                 {
                     'name' : 'Stirling number of the first kind',
-                    'snippet' : ['stirling(n, k, kind=1, signed=False)',],
+                    'snippet' : ['from sympy.functions.combinatorial.numbers import stirling', 'stirling(n, k, kind=1, signed=False)',],
                 },
                 {
                     'name' : 'Reduced Stirling number of the second kind',
-                    'snippet' : ['stirling(n, k, d)',],
+                    'snippet' : ['from sympy.functions.combinatorial.numbers import stirling', 'stirling(n, k, d)',],
                 },
                 {
                     'name' : 'Number of combinations of length k among n items',
-                    'snippet' : ['nC(n, k)',],
+                    'snippet' : ['from sympy.functions.combinatorial.numbers import nC', 'nC(n, k)',],
                 },
                 {
                     'name' : 'Number of permutations of length k among n items',
-                    'snippet' : ['nP(n, k)',],
+                    'snippet' : ['from sympy.functions.combinatorial.numbers import nP', 'nP(n, k)',],
                 },
                 {
                     'name' : 'Number of partitions of length k among n items',
-                    'snippet' : ['nT(n, k)',],
+                    'snippet' : ['from sympy.functions.combinatorial.numbers import nT', 'nT(n, k)',],
                 },
             ],
         },
