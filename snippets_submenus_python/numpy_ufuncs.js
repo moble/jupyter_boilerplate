@@ -962,7 +962,7 @@ define({
                 {
                     'name' : 'cross: Cross product of two (arrays of) vectors',
                     'snippet' : [
-                        'np.cross(a, b)',
+                        'np.cross([1, -1, 1], [2, 3, -6])',
                     ],
                 },
             ],
