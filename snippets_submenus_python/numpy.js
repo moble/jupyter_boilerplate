@@ -160,14 +160,6 @@ define([
                             'a,b,c = np.split(x, [2,6], axis=1)',
                         ],
                     },
-                    {
-                        'name' : 'Return copy of arrays, combined into one',
-                        'snippet' : [
-                            'a = np.arange(30).reshape((2,3,5))',
-                            'b = np.arange(42).reshape((2,3,7))',
-                            'c = np.concatenate((a, b), axis=1)',
-                        ],
-                    },
                 ],
             },
 
