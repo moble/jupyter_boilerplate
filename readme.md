@@ -15,8 +15,8 @@ out with a programming language, who need some ideas for what to do
 next — like importing a module, defining variables, or calling
 functions.
 
-The new menu comes with a default value relevant for python
-programming — especially scientific computing — though this is fully
+The new menu comes with a default value relevant for [python
+programming](https://www.scaler.com/topics/python/) — especially scientific computing — though this is fully
 user-configurable as detailed below.  The default menu is named
 `Snippets`, and contains sub-menus with snippets for a few popular
 python packages, as well as python itself, and some notebook markdown.
