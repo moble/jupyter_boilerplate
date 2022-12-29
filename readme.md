@@ -61,7 +61,7 @@ Installation
 To install this extension alone (without the [main collection of nbextensions](https://github.com/ipython-contrib/jupyter_contrib_nbextensions)), run the following from the command line:
 
 ```bash
-git clone git://github.com/moble/jupyter_boilerplate
+git clone https://github.com/moble/jupyter_boilerplate
 jupyter nbextension install jupyter_boilerplate
 jupyter nbextension enable jupyter_boilerplate/main
 ```
