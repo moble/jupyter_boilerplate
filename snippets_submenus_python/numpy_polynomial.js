@@ -43,7 +43,7 @@ define({
         {
             'name' : 'Get coefficients (constant at index 0, higher indices for higher orders)',
             'snippet' : [
-                'poly.coeff',
+                'poly.coef',
             ],
         },
         {
@@ -121,8 +121,8 @@ define({
                 'np.random.seed(11)',
                 'x = np.linspace(0, 2*np.pi, 20)',
                 'y = np.sin(x) + np.random.normal(scale=.1, size=x.shape)',
-                'n = 5',
-                'p = T.fit(x, y, n)',
+                'n = 5 # degree',
+                'np.polyfit(x, y, n)',
             ],
         },
     ],

@@ -43,7 +43,8 @@ define({
                 {
                     'name' : 'trace: Return the sum along diagonals of the array.',
                     'snippet' : [
-                        'np.trace(a, axis1, axis2)',
+                        'data = np.array([[3, 0, 0], [7, -1, 0], [-1, 0, 1]])',
+                        'np.trace(data, axis1 = 0, axis2 = 1)',
                     ],
                 },
 
@@ -139,28 +140,34 @@ define({
                 {
                     'name' : 'gradient: Gradient of an N-dimensional array',
                     'snippet' : [
-                        'np.gradient(f, *varargs, **kwargs)',
+                        'xx = np.arange(0, 1, 0.1)',
+                        'yy = xx**2 + 1',
+                        'np.gradient(yy, 0.1)',
                     ],
                 },
 
                 {
-                    'name' : 'trapz: Integrate along the given axis using the composite trapezoidal rule',
+                    'name' : 'trapz: Integrate using the composite trapezoidal rule',
                     'snippet' : [
-                        'np.trapz(y, x, dx, axis)',
+                        'xx = np.linspace(0, np.pi, num=100)',
+                        'yy = np.sin(xx)',
+                        'np.trapz(yy, x=xx)',
                     ],
                 },
 
                 {
                     'name' : 'convolve: Discrete, linear convolution of two one-dimensional sequences',
                     'snippet' : [
-                        'np.convolve(a, v)',
+                        'np.convolve([1, 2, 3], [0, 1, 0.5])',
                     ],
                 },
 
                 {
                     'name' : 'interp: One-dimensional linear interpolation',
                     'snippet' : [
-                        'np.interp(x, xp, fp)',
+                        'xp = [-1, 2.5, 3, 8]',
+                        'fp = [0, 4, 4.1, 5]',
+                        'np.interp([0, 1, 2, 3, 4], xp, fp)',
                     ],
                 },
             ],
@@ -955,7 +962,7 @@ define({
                 {
                     'name' : 'cross: Cross product of two (arrays of) vectors',
                     'snippet' : [
-                        'np.cross(a, b)',
+                        'np.cross([1, -1, 1], [2, 3, -6])',
                     ],
                 },
             ],
